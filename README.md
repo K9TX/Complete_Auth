@@ -1,1 +1,36 @@
-# Complete_Auth
+# Commplete Authentication System
+
+This is a full-stack web application built using **Python Django** for the backend, **React.js** for the frontend, and **MySQL** as the database. The application provides essential user functionalities like sign up, sign in, password reset with OTP, Google login, and JWT-based token authentication for secure user sessions.
+
+## Features
+
+- **User Authentication**:
+  - **Sign Up**: Users can create a new account by providing their email, username, and password.
+  - **Sign In**: Users can sign in to their account using their credentials (email and password).
+  - **Password Reset (OTP)**: Users can reset their password by receiving a One-Time Password (OTP) to their email.
+  - **Google Login**: Users can sign in using their Google account.
+  - **JWT Authentication**: Secure authentication using JSON Web Tokens (JWT) for maintaining user sessions.
+
+## Tech Stack
+
+- **Frontend**:
+  - **React.js**: A JavaScript library for building user interfaces.
+  - **Material-UI (MUI)**: A popular React component library for building modern and responsive UIs with pre-built components.
+  - **Axios**: For making API calls to the backend.
+  - **React Router**: For managing client-side routing.
+
+- **Backend**:
+  - **Python Django**: A powerful web framework for building robust and secure web applications.
+  - **Django Rest Framework (DRF)**: For building RESTful APIs.
+  - **JWT Authentication**: For securely handling user authentication and session management.
+
+- **Database**:
+  - **MySQL**: A relational database management system for storing user data and application information.
+
+## Installation
+
+### Backend (Django)
+
+. Clone the repository:
+   ```bash
+   git clone https://github.com/K9TX/Complete_Auth
