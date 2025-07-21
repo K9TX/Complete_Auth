@@ -38,6 +38,8 @@ This is a full-stack web application built using **Python Django** for the backe
 Backend (DJango)
 Navigate to the backend directory:
 
+pip install django mysqlclient
+
 Set up a virtual environment:
 python -m venv venv
 
