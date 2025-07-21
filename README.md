@@ -35,8 +35,8 @@ This is a full-stack web application built using **Python Django** for the backe
    ```bash
    git clone https://github.com/K9TX/Complete_Auth
 
+Backend (DJango)
 Navigate to the backend directory:
-cd project-name/backend
 
 Set up a virtual environment:
 python -m venv venv
