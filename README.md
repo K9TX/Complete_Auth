@@ -34,3 +34,46 @@ This is a full-stack web application built using **Python Django** for the backe
 . Clone the repository:
    ```bash
    git clone https://github.com/K9TX/Complete_Auth
+
+Navigate to the backend directory:
+cd project-name/backend
+
+Set up a virtual environment:
+python -m venv venv
+
+Activate the virtual environment:
+.\venv\Scripts\activate
+
+Install the required Python dependencies:
+pip install -r requirements.txt
+
+Set up the MySQL database:
+Create a MySQL database and update the DATABASES configuration in settings.py with your database credentials.
+
+Apply database migrations:
+python manage.py migrate
+
+Create a superuser (optional for accessing the admin panel):
+python manage.py createsuperuser
+
+Start the Django development server:
+python manage.py runserver
+
+
+Frontend (React.js)
+Navigate to the frontend directory:
+
+npm install
+
+Install Material-UI (MUI):
+
+npm install @mui/material @emotion/react @emotion/styled
+
+Install other required dependencies like Axios and React Router:
+
+npm install axios react-router-dom
+
+Start the React development server:
+
+npm start
+This will start the frontend on http://localhost:5173.
